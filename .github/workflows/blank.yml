@@ -23,4 +23,4 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Run a one-line script
-        run: ls -la; pwd; ls -la /home/runner/work; ls -la /home/runner; ls -la /home/runner/.config; ls -la /home/runner/.ghcup; cat /home/runner/.profile; ls -la /home/runner/runners;
+        run: ls -la /home/runner/.config/Github; ls -la /home/runner/.config/cni; ls -la ls -la /home/runner/.config/configstore; ls -la /usr/local/.ghcup; ls -la  /home/runner/runners/2.312.0; ls -la /home/runner/runners/2.313.0;
